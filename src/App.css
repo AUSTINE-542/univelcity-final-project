@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(47, 0, 255); */
+  font-family: sans-serif;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: teal;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: whitesmoke;
+  font-size: smaller;
+  font-weight: 900;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+}
+button p {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr ;
+  justify-items: center;
+  font-size: smaller;
+}
+.side {
+  background-color: red;
+}
+.side P {
+  margin-left: 200px;
+  padding-top: 50px;
+  font-weight: bolder;
+}
+.main {
+  height: auto;
+  width: auto;
+}
+.main-content {
+  display: flex;
+  padding-top: 40px;
+  width: auto;
+  height: 100vh;
+  background-color: teal;
+}
+.sideA {
+  margin-top: 20px;
+}
+.sideA h2 {
+  margin-left: 10px;
+}
+.circle {
+  padding: 20px;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+  margin: 15px;
+}
+.circle p {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr;
+  justify-items: center;
+  font-size: smaller;
+  font-weight: 900;
+}
+.sideB {
+    margin-top: 25px;
+    width: auto;
+    height: auto;
+  
+}
+.sideB h2 {
+  margin-left: 40px;
+}
+.sideB-content {
+  display: inline-flex;
+}
+.sideC .circle {
+  margin-top: 10px;
+  padding-left: 5px;
+  font-weight: 900;
+  font-weight: bolder;
+}
+.sideC h2 {
+  margin-bottom: 2px;
+}
+.sideD .circle {
+  margin-top: 38px;
+  padding-right: 5px;
+  font-weight: bolder;
 }
